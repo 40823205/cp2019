@@ -363,29 +363,45 @@ document.getElementById("iframe").height = 600 ;
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">影片:https://youtu.be/J6w6ZA8RThc</pre>
 <p></p>
 <h2>W17 考試</h2>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">題目二: 重量單位轉換程式設計 (Dart + html +css 程式)
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">題目一: 重量單位轉換程式設計 (純 Dart 程式)
+題目二: 重量單位轉換程式設計 (Dart + html +css 程式)
 
-void main(){
-  int a = 25 ;
- 
-    num b=  2.20462262*a ;
-print("Celsius=$a kg  Fahrenheit=$b lb");
-  
-}</pre>
-<p></p>
+</pre>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823205&gh_repo=cp2019&gh_path=downloads/new/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823205&gh_repo=cp2019&gh_path=downloads/new/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
 <h4>Dart 程式</h4>
-<p><button onclick="getDart('kglb')">kglb</button></p>
+<p><button onclick="getDart('kg ib')">kg lb</button></p>
 <h4>Html 程式</h4>
-<p><button onclick="getHtmlDart('kglb')">kglb</button> <button onclick="getHtmlDart('USA')">Flag</button></p>
+<p><button onclick="getHtmlDart('kglb')">kg lb</button> <button onclick="getHtmlDart('USA')">Flag</button></p>
 <!-- 內建放入的 Dart 原始碼 -->
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823205&amp;gh_repo=cp2019&amp;gh_path=downloads/new/kglb&amp;theme=dark" width="800"></iframe></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823205&amp;gh_repo=cp2019&amp;gh_path=downloads/new&amp;theme=dark" width="800"></iframe></p>
 <p>輸入所要轉換的溫度 <input id="F" max="125" min="-40" type="string" value="25kg"/> <input id="submit" type="button" value="轉換"/> 轉換結果: <label id="output"></label></p>
-<script src="/get_page/downloads/dart_ex/kg ib/kg,ib.js"></script>
+<script src="/get_page/downloads/new/kg lb/kglb.js"></script>
 <div id="wrapper"><canvas height="200" id="canvas" width="300"></canvas> <button id="button">Clear Canvas</button> <button id="jap">Draw Jap</button> <button id="roc">Draw ROC</button> <button id="fra">Draw Fra</button> <button id="rus">Draw Rus</button> <button id="usa">Draw Usa</button> <button id="uk">Draw Uk</button> <button id="ger">Draw Ger</button> <button id="net">Draw Net</button></div>
 <p>
-<script src="/get_page/downloads/dart_ex/USA/Flag.js"></script>
+<script src="/get_page/downloads/new/USA/Flag.js"></script>
 </p>
+<p><a href="https://colorlib.com" target="_blank"></a> <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+<div class="container">
+<div class="row pt-3 mx-auto"></div>
+</div>
 <!-- for footer -->
 <p></p>
 <!-- for site wrap -->
