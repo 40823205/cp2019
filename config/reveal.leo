@@ -34,8 +34,8 @@
 <v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
-<v t="leo.20200108235547.1"><vh>引用程式碼</vh></v>
 <v t="leo.20200108235601.1"><vh>引用程式碼</vh></v>
+<v t="leo.20200109000936.1"><vh>引用程式碼</vh></v>
 </v>
 </v>
 </v>
@@ -296,7 +296,6 @@ font-size: 100%;
 </t>
 <t tx="leo.20180902120523.19">## 各國國旗
 
-@language python
 import 'dart:html';
 import 'dart:math' as Math;
    
@@ -542,11 +541,9 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108235547.1">## 查驗考試影片
-
-&lt;iframe src="https://youtu.be/J6w6ZA8RThc" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20200108235601.1">## 心得
+<t tx="leo.20200108235601.1">## 查驗考試影片
+https://youtu.be/J6w6ZA8RThc</t>
+<t tx="leo.20200109000936.1">## 心得
 W17的作業是在個人網站上的 Reveal.js 進行簡報, 編輯config的reveal.leo去做轉換, 說明個人在本課程所完成的任務內容</t>
 </tnodes>
 </leo_file>
