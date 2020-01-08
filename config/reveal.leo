@@ -566,6 +566,6 @@ void clearCanvas(){
 						
 </t>
 <t tx="leo.20200109003109.2">## 心得
-W17的作業是在個人網站上的 Reveal.js 進行簡報, 編輯config的reveal.leo去做轉換, 說明個人在本課程所完成的任務內容</t>
+W17的作業是在個人網站上的 Reveal.js 進行簡報, 編輯config的reveal.leo去做轉換, 說明個人在本課程所完成的任務內容&lt;</t>
 </tnodes>
 </leo_file>
