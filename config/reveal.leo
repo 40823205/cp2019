@@ -34,8 +34,12 @@
 <v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
-<v t="leo.20200108235601.1"><vh>引用程式碼</vh></v>
-<v t="leo.20200109000936.1"><vh>引用程式碼</vh></v>
+<v t="leo.20200109001820.1"><vh>導入影片</vh>
+<v t="leo.20200109001820.2"><vh>iframe 導入影片</vh></v>
+</v>
+<v t="leo.20200109001800.1"><vh>心得</vh>
+<v t="leo.20200109001800.2"><vh>心得</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -541,9 +545,27 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108235601.1">## 查驗考試影片
-https://youtu.be/J6w6ZA8RThc</t>
-<t tx="leo.20200109000936.1">## 心得
+<t tx="leo.20200109001800.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109001800.2">## 心得
 W17的作業是在個人網站上的 Reveal.js 進行簡報, 編輯config的reveal.leo去做轉換, 說明個人在本課程所完成的任務內容</t>
+<t tx="leo.20200109001820.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109001820.2">## 查驗考試影片
+https://youtu.be/J6w6ZA8RThc</t>
 </tnodes>
 </leo_file>
