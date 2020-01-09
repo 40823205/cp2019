@@ -318,6 +318,6 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200109003109.2">## 心得
-W17的作業是在個人網站上的 Reveal.js 進行簡報, 編輯config的reveal.leo去做轉換, 說明個人在本課程所完成的任務內容</t>
+剛開始接觸這門課的時候感覺超陌生又難學，但慢慢地懂了一些程式的邏輯，雖然現在做得還不是很好，但我會繼續努力的</t>
 </tnodes>
 </leo_file>
